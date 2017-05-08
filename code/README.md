@@ -1,6 +1,6 @@
 Usage
 --------------------
-To compile the code use the below 
+To compile the code use the below \n
 g++ main.c test_client.h facerec_video.hpp SparkFun_APDS9960.cpp SparkFun_APDS9960.h temp.c i2c-dev.h i2c-id.h i2c.h ProxSensorCamTemp.hpp gpio-galileo.h -lcurl -lpthread `pkg-config --cflags opencv` `pkg-config --libs opencv`
 
 While execution input numbers as instructed in thread 0.
