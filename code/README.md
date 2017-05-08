@@ -1,6 +1,8 @@
 Usage
 --------------------
-To compile the code use the below<br>
+Prog1.X is an MPLABX project to program PIC 16F18857 microcontroller, pthread folder contains code to be run on Intel Galileo Gen 2. Please refer to the schematic diagram inside the report for connections.
+
+To compile the code on Intel Galileo Gen 2 use the below<br>
 g++ main.c test_client.h facerec_video.hpp SparkFun_APDS9960.cpp SparkFun_APDS9960.h temp.c i2c-dev.h i2c-id.h i2c.h ProxSensorCamTemp.hpp gpio-galileo.h -lcurl -lpthread `pkg-config --cflags opencv` `pkg-config --libs opencv`
 
 While execution input numbers as instructed in thread 0.
